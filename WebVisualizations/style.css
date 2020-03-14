@@ -1,0 +1,47 @@
+body {
+    background-color: #343a403b;
+}
+
+.container h3 {
+    color: #343a40;
+}
+
+.row {
+    align-self;
+}
+
+#main_text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+#side_box {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+    height: 400px;
+}
+
+.box a img:hover {
+    border-style: solid; border-color:darkslategray;
+}
+
+.target {
+    border-style: solid; border-color:darkslategray;
+}
+
+@media (max-width: 767px) {
+    .box img {
+        width: 25%;
+    }
+
+    #side_box {
+        height: 200px;
+    }
+
+    .row {
+        margin-bottom: 50px;
+    }
+}
