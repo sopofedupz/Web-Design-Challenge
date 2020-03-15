@@ -3,19 +3,19 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: vmax;
-    min-width: vmin;
     margin-bottom: 50px;
 }
 
 .container h3 {
-    color: #103e5f;
-    font-weight: bold;
+    color: #78c2ad;
+    font-weight: bolder;
 }
 
 .container h2 {
-    color: #103e5f;
-    font-weight: bold;
+    color: #78c2ad;
+    font-weight: bolder;
 }
 
 .container3 .row {
@@ -26,8 +26,8 @@ body {
 
 .container3 .row h4 {
     text-align: center;
-    font-weight: bold;
-    color: #103e5f;
+    font-weight: bolder;
+    color: #78c2ad;
 }
 
 .dropdown-menu {
@@ -72,15 +72,15 @@ p {
 
 .box a img:hover {
     border-style: solid;
-    border-width: 1px;
-    border-color: #343a403b;
+    border-width: 2px;
+    border-color: #78c2ad;
 }
 
 .target {
     border-style: solid;
-    border-color:#343a40;
+    border-width: 2px;
+    border-color:#f3969a;
 }
-
 
 @media (max-width: 991px) {
     #side_box {
